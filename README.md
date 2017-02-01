@@ -1,5 +1,5 @@
 # E-restoran - web aplikacija za online narudžbu jela
-Projekt iz kolegija Projektiranje Informacijskih sustava, Fakultet strojarstva i računarstvononla
+Projekt iz kolegija Projektiranje Informacijskih sustava, Fakultet strojarstva i računarstvo
 Ovaj repository sadržava sve potrebno za uspješno izvršavanje projekta:
 Specifikaciju zahtjeva putem UML modela slučajeva korištenja
 UML modele klasa i  prijedlog-specifikaciju rješenja
