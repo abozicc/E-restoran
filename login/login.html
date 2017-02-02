@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<link rel="stylesheet" href="">
+</head>
+<body>
+
+
+<div class="login-form-head">
+<b>Prijavite se na svoj račun</b>
+</div>
+	
+	<div class="login-form-body">
+		<input type="text" id="email" name="email" placeholder="Email" autocomplete="off" class="login-form-input" required=""><div></div>
+        <input type="password" id="password" name="password" placeholder="Lozinka" class="login-form-input" autocomplete="off" required=""><div></div>
+		<small class="float-r"><a class="color-main" href="#/forgot_password">Zaboravili ste lozinku?</a></small>
+		<div class="login-form-footer">
+		<a href="../registration/registration.html"><button type="button" class="bg-blue">REGISTRIRAJ SE</button></a>
+		
+        <a><button type="button" id="login_btn" name="register">prijavi se</button></a>
+        </div> 
+    </div>
+	
+
+
+<div id="message_placeholder"></div>
+
+<script src="../lib/jquery.js"></script>
+<script src="login.js"></script>
+
+</body>
+</html>
