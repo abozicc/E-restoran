@@ -1,1 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Početna stranica - Index </title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
 
+	<body>
+		<div class="header">
+			<div class="container">
+				<div class="logo">
+					<h1><a href="index.html"> E - RESTORAN </a></h1>
+				</div>
+				<div class="nav">
+					<ul>
+						<li class="text"><a href="onama.html">O nama</a></li>
+						<li class="text"><a href="./menu.html">Meni</a></li>
+						<li class="text"><a href="../restoran/login/login.html">Prijava</a></li>
+						<li class="text"><a href="../restoran/registration/registration.html">Registracija</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		
+<!-- <nav class="sidebar">
+	<ul>
+	<h2 class="kateg">Kategorije</h2>
+  <li id="side"><a class="active" href="#meni.html">Današnja ponuda</a></li>
+  <li id="side"><a href="#">Pizze</a></li>
+  <li id="side"><a href="#">Sendviči</a></li>
+  <li id="side"><a href="#">Tjestenina</a></li>
+</ul>
+</nav>-->
+		
+		<div class="sidebar">	
+		<h4 class="search"><span>Pronađite jelo</span></h4>
+        <form class="search-field">
+        <input type="text" placeholder="Search..." required> <br>
+        <input id="btn-search" type="button" value="Search">
+		</form>
+		
+            <ul> 
+               <li>
+                    <h4><span>Kategorije</span></h4>
+                    <ul class="blocklist">
+                        <li><a href="index.html">Tjestenina</a></li>
+                        <li><a href="examples.html">Sendviči</a></li>
+                        <li><a href="#">Pizze</a></li>
+                        <li><a href="#">Ostala jela</a></li>
+                        <li><a href="#">Deserti</a></li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <h4 class="h4-green"><span>Najpoznatija jela</span></h4>
+                    <ul>
+                        <li><a title=""><strong>Sendvič-taj i taj</strong></a> - Opis tog jela</li>
+                        <li><a href=""><strong>Pizza ta i ta</strong></a> - opis tog jela </li>
+                        <li><a href=""><strong>Makaroni</strong></a> -Opis tog jela</li>
+                    </ul>
+                </li>
+                
+            </ul> 
+  
+		</div>
+			<div class="container">
+			<div class="raspored">
+			<h2 class="naslov">DANAŠNJA PONUDA</h2>
+			<hr>
+				<div class="img">
+  <!-- <a target="_blank" href="./assets/images/pizza.jpg"> -->
+    <img src="../assets/images/pizza.jpg" width="600" height="400">
+  <!-- </a> -->
+  <div class="desc">Pizza</div>
+  <div class="cijena">5 KM</div>
+  <a href="#popup1"><p class="infor">Vidi više</p></a>
+				</div>
+
+<div class="img">
+  <!-- <a target="_blank" href="img_forest.jpg"> -->
+    <img src="../assets/images/spaghetti.jpg" width="600" height="400">
+  <!-- </a> -->
+  <div class="desc">Spaghetti</div>
+  <div class="cijena">7 KM</div>
+    <a href="#popup2"><p class="infor">Vidi više</p></a>
+</div>
+
+<div class="img">
+  <!-- <a target="_blank" href="img_lights.jpg"> -->
+    <img src="../assets/images/lasagna.jpg" width="600" height="400">
+  <!-- </a> -->
+  <div class="desc">Lasagna</div>
+    <div class="cijena">7 KM</div>
+	  <a href="#popup3"><p class="infor">Vidi više</p></a>
+</div>
+
+<div class="img">
+  <!-- <a target="_blank" href="img_mountains.jpg"> -->
+    <img src="../assets/images/pomfrit.jpg" width="600" height="400">
+  <!-- </a> -->
+  <div class="desc">Pomfrit</div>
+    <div class="cijena">3 KM</div>
+	  <a href="#popup4"><p class="infor">Vidi više</p></a>
+</div>
+
+			</div>
+		</div>
+		
+<!--pop up-->
+
+<div id="popup1" class="overlay">
+		<div class="popup"> 
+			<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+			Vestibulum sagittis hendrerit dui, 
+			non iaculis diam sodales eget. Suspendisse potenti. 
+			Proin a ex suscipit, mattis justo sed, iaculis leo.</h4>
+		<a class="close" href="#"><center>Zatvori</center></a>
+		</div>
+</div>
+<div id="popup2" class="overlay">
+		<div class="popup"> 
+			<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+			Vestibulum sagittis hendrerit dui, 
+			non iaculis diam sodales eget. Suspendisse potenti. 
+			Proin a ex suscipit, mattis justo sed, iaculis leo.</h4>
+		<a class="close" href="#"><center>Zatvori</center></a>
+		</div>
+</div>
+<div id="popup3" class="overlay">
+		<div class="popup"> 
+			<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+			Vestibulum sagittis hendrerit dui, 
+			non iaculis diam sodales eget. Suspendisse potenti. 
+			Proin a ex suscipit, mattis justo sed, iaculis leo.</h4>
+		<a class="close" href="#"><center>Zatvori</center></a>
+		</div>
+</div>
+<div id="popup4" class="overlay">
+		<div class="popup"> 
+			<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+			Vestibulum sagittis hendrerit dui, 
+			non iaculis diam sodales eget. Suspendisse potenti. 
+			Proin a ex suscipit, mattis justo sed, iaculis leo.</h4>
+		<a class="close" href="#"><center>Zatvori</center></a>
+		</div>
+</div>
+		
+		
+	</body>
+</html>
