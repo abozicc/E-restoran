@@ -1,0 +1,283 @@
+body{
+	width: 100%;
+	margin: auto;	
+}
+
+.container{
+	margin: 0 auto; /*sredina*/
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+
+.header{
+	
+	background: #EA6500;
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	top: 0;
+
+	}
+
+.logo{
+	float: left;
+	font-family: "Verdana";
+	font-size: 15px;
+	margin-top: 15px;
+}
+
+a{
+ text-decoration: none;  /*crte ispod linkova*/
+ color: white;
+}
+
+li{
+	font-family: "Verdana";
+	color: black;
+	list-style: none; 
+	float: left; /*izbornik da budu opcije na desnoj strani jedna do druge*/
+	margin-top: 15px;
+	padding: 15px;
+	padding-left: 10px;
+	}
+
+.nav{
+	float: right;
+}
+
+.content{
+padding-top: 75px;
+}
+
+
+.raspored{
+padding-top: 100px;
+width: 800px;
+margin: 0 auto;
+}
+
+
+/* SIDEBAR*/
+
+.sidebar {
+	width: 280px;
+	padding-top: 120px;
+	float: left;
+}
+
+
+.sidebar ul {
+	margin: 0;
+	padding: 10px;
+	list-style: none;
+}
+
+.sidebar ul li {
+	margin-bottom: 20px;
+	line-height: 1.9em;
+}
+
+.sidebar li ul li {
+	display: block;
+	border-top: none;
+	padding: 6px 2px;
+	margin: 0;
+	line-height: 1.5em;
+	font-size: 13px;
+	border: none;
+}
+
+.sidebar li ul li a {
+	font-weight: normal;
+	color: #666;
+}
+
+.sidebar li ul li a:hover {
+	color: black;
+}
+
+.sidebar li ul.blocklist {
+	padding: 0;
+}
+
+.sidebar li ul.blocklist li {
+	padding: 0;
+	display: inline;
+}
+
+.sidebar li ul.blocklist li a {
+	display: block;
+	border-bottom:1px solid #e0e0e0;
+	padding: 8px 10px;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: "Verdana";
+	font-size: 12px;
+}
+
+.sidebar li ul.blocklist li a:hover {
+	background-color: #ccc;
+	color: #111;
+}
+
+
+
+.sidebar h4  {
+	color: #fff;
+	font-family: "Verdana";
+	font-size: 13px;
+	letter-spacing: -0.5px;
+	border-bottom: 1px solid #000;
+	text-transform:uppercase;
+	margin: 10px;
+	line-height: 1.9em;
+	padding: 10px 5px 5px 10px;
+	font-weight: bold;
+	background: #333;
+	width: 200px;
+}
+
+.sidebar h4.h4-green {
+	background: #EA6500;
+	border-bottom: 1px solid;
+	width: 200px;
+}
+
+.sidebar h4.search{
+	border-bottom: 1px solid;
+	width: 200px;
+	margin-left: 25px;
+}
+
+.btn-search{
+ margin-top: 5px;
+}
+
+.search-field{
+margin-left: 30px;
+}
+
+
+/*Slike-ponuda*/
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 2px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+	font-family: Verdana;
+    padding: 15px;
+    text-align: center;
+}
+
+div.cijena {
+	font-family: Verdana;
+    padding: 15px;
+    text-align: center;
+	color: grey;
+}
+.naslov {
+	font-family: Verdana;
+	padding:15px;
+	text-align: center;
+	color: #333;
+}
+
+/*pop up*/
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.5);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+
+}
+.popup {
+  margin: 75px auto;
+  padding: 20px;
+  background: white;
+  border: 1px solid #666;
+  width: 500px;
+  box-shadow: 0 0 50px rgba(0,0,0,0.5);
+  position: relative;
+
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+
+}
+.close {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: 20px;
+  right: 20px;
+  opacity: 0.5;
+  transition: all 200ms;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+.infor{
+	text-align: center;
+	font-family: "Verdana";
+	color: grey;
+	font-style:bold;
+}
+
+/* ANA - SIDEBAR
+
+.sidebar {
+	padding-top: 75px;
+    position:absolute;
+    left:0; top:100px; bottom: 0;
+    width: 178px;
+	color:black;
+
+} 
+.kateg{
+	font-family: Verdana;
+	color: grey;
+}
+
+
+#side a{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#side a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#side a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+.text a{
+	color:white;
+}*/
