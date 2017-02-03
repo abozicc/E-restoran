@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+
+<link rel="stylesheet" type="text/css" href="../css/login-register.css">
+
+</head>
+<body>
+	<div class="header">
+			<div class="container">
+				<div class="logo">
+					<h1><a href="index.html"> E - RESTORAN </a></h1>
+				</div>
+				<div class="nav">
+					<ul>
+						<li><a href="index.html">O nama</a></li>
+						<li><a href="../menu/menu.html">Meni</a></li>
+						<li><a href="../login/login.html">Prijava</a></li>
+						<li><a href="../registration/registration.html">Registracija</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+<div class="login-form">
+<div class="login-form-head">
+<b>Prijavite se na svoj račun</b>
+</div>
+	
+	<div class="login-form-body">
+		<input type="text" id="email" name="email" placeholder="Email" autocomplete="off" class="login-form-input" required=""><div></div>
+        <input type="password" id="password" name="password" placeholder="Lozinka" class="login-form-input" autocomplete="off" required=""><div></div>
+		<div class="login-form-footer" align="center">	
+        <a><button type="button" id="login_btn" name="register" align="center">PRIJAVI SE</button></a>
+        </div> 
+    </div>
+	</div>
+
+<div id="message_placeholder"></div>
+
+<script src="../lib/jquery.js"></script>
+<script src="login.js"></script>
+
+</body>
+</html>
