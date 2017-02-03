@@ -1,0 +1,129 @@
+body{
+	width: 100%;
+	margin: auto;
+	background-image: url(../assets/images/food-back.jpeg);
+background-size: cover;
+	
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto; /*sredina*/
+
+}
+
+.header{
+	
+	background: #EA6500;
+	opacity: 0.65;
+	width: 100%;
+	position: fixed;
+	top: 0;
+
+	}
+
+.logo{
+	float: left;
+	font-family: "Verdana";
+	font-size: 15px;
+	margin-top: 15px;
+}
+
+a{
+ text-decoration: none;  /*crte ispod linkova*/
+ color: white;
+}
+
+li{
+	font-family: "Verdana";
+	list-style: none; 
+	float: left; /*izbornik da budu opcije na desnoj strani jedna do druge*/
+	margin-top: 15px;
+	padding: 15px;
+	padding-left: 10px;
+	}
+
+.nav{
+	float: right;
+}
+
+.content{
+padding-top: 75px;
+}
+
+.login-form {
+	width: 30%;
+    background-color: #fff;
+	opacity: .90;
+	margin: 0 auto;
+    overflow: hidden;
+    box-shadow: 0.1em 0.1em 1em 0.2em rgba(0, 0, 0, 0.1), -0.1em -0.1em 1em 0.2em rgba(0, 0, 0, 0.1);
+    margin-top: 10em;
+	font-family: "Verdana";
+}
+
+.login-form-head {
+    color: #fff;
+    background: #202020;
+    padding: 1em;
+	font-family: "Verdana";
+	
+}
+
+.login-form-body {
+    padding: 1em;
+font-family: "Verdana";
+}
+.login-form-footer {
+    padding: 1em;
+}
+
+.login-form-footer button {
+    width: 47.5%;
+}
+
+
+.login-form-input {
+    border: none;
+    outline: none;
+    text-indent: 1em;
+    height: 1.5em;
+    width: 100%;
+	font-family: "Verdana";
+}
+
+.login-form-input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+.login-form-input+div {
+    width: 15%;
+    height: 1px;
+    margin-bottom: 1em;
+    transition: width 0.5s ease;
+    background: #202020;
+}
+
+.login-form-input:focus+div {
+    width: 100%;
+}
+
+#login_btn{
+	background-color: #ffa866;
+border: 1px ;
+    border-radius: 25px;
+   border-radius: 25px;
+	width: 200px;
+	height: 30px;
+	color:white;
+}
+
+#register_btn{
+	background-color: #ff8b33;
+border: 1px ;
+    border-radius: 25px;
+   border-radius: 25px;
+	width: 200px;
+	height: 30px;
+	color:white;
+}
