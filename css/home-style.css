@@ -16,8 +16,9 @@ body{
 	height: 100px;
 	position: fixed;
 	top: 0;
-
-	}
+	z-index: 1;
+	opacity: 0.90;
+}
 
 .logo{
 	float: left;
@@ -54,9 +55,9 @@ li{
 
 p{
 	font-family: "Verdana";
-	font-size: 13px;
+	font-size: 20px;
 	line-height: 15px;
-	letter-spacing: 10px;
+	letter-spacing: 5px;
 	color: gray;
 	text-align: center;
 }
@@ -81,6 +82,7 @@ p{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
+ font-family: "Verdana";
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -98,6 +100,7 @@ p{
 .text {
   background-color: #EA6500;
   color: white;
+	font-family: "Verdana";
   font-size: 16px;
   padding: 16px 32px;
   letter-spacing: 5px;
@@ -105,4 +108,11 @@ p{
 
 .content{
 padding-top: 75px;
+}
+
+.povijest{
+padding-top: 150px;
+padding-left: 30px;
+font-family: "Verdana";
+	
 }
