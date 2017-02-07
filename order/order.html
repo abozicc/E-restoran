@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Narudzba</title>
+	<link rel="stylesheet" type="text/css" href="../css/narudzba.css">
+
+</head>
+<body>
+	<div class="header">
+			<div class="container">
+				<div class="logo">
+					<h1><a href="../index.html"> E - RESTORAN </a></h1>
+				</div>
+				<div class="nav">
+					<ul>
+						<li><a href="../about/about.html">O nama</a></li>
+						<li><a href="../menu/menu.html">Meni</a></li>
+						<li><a href="../login/login.html">Prijava</a></li>
+						<li><a href="../registration/registration.html">Registracija</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+<div class="login-form">
+	<div class="login-form-head" align="center"><b>Za početak se potrebno prijaviti</b></div>
+	
+	<div class="login-form-body">
+        <label><input id="username" type="text" placeholder="Korisnicko ime" autocomplete="off" class="login-form-input" required="" pattern=".{3,}" title="3 characters minimum"><div></div></label>
+      	<label><input id="password" type="password" placeholder="Lozinka" class="login-form-input" autocomplete="off" required="" pattern=".{4,}" title="3 characters minimum"><div></div></label>
+	<div class="login-form-footer" align="center">
+        <a href="#"><button id="register_btn" name="login">Prijava</button></a>
+	</div>
+		  <br>
+	<div class="login-form-head" align="center"><b>Nemaš račun?</b></div>
+		<div class="login-form-footer" align="center">
+			<a href="./registration/registration.html"><button id="register_btn" name="login">Registriraj se!</button></a>
+		</div>
+
+    </div>
+</div>
+
+<script src="../lib/jquery.js"></script>
+<script src="registration.js"></script>
+
+</body>
+</html>
